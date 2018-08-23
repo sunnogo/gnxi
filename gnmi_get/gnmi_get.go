@@ -23,15 +23,15 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
 
-	"github.com/google/gnxi/utils"
-	"github.com/google/gnxi/utils/credentials"
-	"github.com/jipanyang/gnxi/utils/xpath"
+	"github.com/sunnogo/gnxi/utils"
+	"github.com/sunnogo/gnxi/utils/credentials"
+	"github.com/sunnogo/gnxi/utils/xpath"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 type arrayFlags []string

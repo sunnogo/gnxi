@@ -7,7 +7,7 @@ import (
 	log "github.com/golang/glog"
 	"github.com/openconfig/goyang/pkg/yang"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // getChildNode gets a node's child with corresponding schema specified by path

@@ -21,7 +21,7 @@ limitations under the License.
 package modeldata
 
 import (
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 const (

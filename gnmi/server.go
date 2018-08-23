@@ -27,19 +27,19 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/status"
 
 	log "github.com/golang/glog"
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/value"
-	"github.com/openconfig/ygot/experimental/ygotutils"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/value"
+	"github.com/sunnogo/ygot/experimental/ygotutils"
+	"github.com/sunnogo/ygot/ygot"
 
-	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	pb "github.com/openconfig/gnmi/proto/gnmi"
-	cpb "google.golang.org/genproto/googleapis/rpc/code"
+	dpb "github.com/sunnogo/protobuf/protoc-gen-go/descriptor"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
+	cpb "github.com/sunnogo/go-genproto/googleapis/rpc/code"
 )
 
 // ConfigCallback is the signature of the function to apply a validated config to the physical device.

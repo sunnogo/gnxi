@@ -25,19 +25,19 @@ import (
 	"reflect"
 
 	log "github.com/golang/glog"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/reflection"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/reflection"
+	"github.com/sunnogo/grpc-go/status"
 
-	"github.com/google/gnxi/gnmi"
-	"github.com/google/gnxi/gnmi/modeldata"
-	"github.com/google/gnxi/gnmi/modeldata/gostruct"
+	"github.com/sunnogo/gnxi/gnmi"
+	"github.com/sunnogo/gnxi/gnmi/modeldata"
+	"github.com/sunnogo/gnxi/gnmi/modeldata/gostruct"
 
-	"github.com/google/gnxi/utils/credentials"
+	"github.com/sunnogo/gnxi/utils/credentials"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 var (

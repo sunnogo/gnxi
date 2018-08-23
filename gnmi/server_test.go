@@ -20,16 +20,16 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/value"
-	"github.com/openconfig/ygot/ygot"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/value"
+	"github.com/sunnogo/ygot/ygot"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/status"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 
-	"github.com/google/gnxi/gnmi/modeldata"
-	"github.com/google/gnxi/gnmi/modeldata/gostruct"
+	"github.com/sunnogo/gnxi/gnmi/modeldata"
+	"github.com/sunnogo/gnxi/gnmi/modeldata/gostruct"
 )
 
 var (

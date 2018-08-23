@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/metadata"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go/metadata"
 
 	log "github.com/golang/glog"
 )
